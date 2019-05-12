@@ -2,6 +2,8 @@
 
 Send message to CBSD supervisor via beanstalk
 
+Server: https://github.com/cbsd/bs_router
+
 # Installation
 
 setenv GOPATH $( realpath . )
