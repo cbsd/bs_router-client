@@ -1,0 +1,15 @@
+{
+    "cbsdenv": "/pool2",
+    "cbsdcolor": false,
+    "broker": "beanstalkd",
+    "logfile": "/dev/stdout",
+    "beanstalkd": {
+      "uri": "127.0.0.1:11300",
+      "tube": "cbsd_pool2",
+      "reply_tube_prefix": "cbsd_pool2_result_id",
+      "reconnect_timeout": 5,
+      "reserve_timeout": 5,
+      "publish_timeout": 5,
+      "logdir": "/var/log/cbsdmq"
+    }
+}
