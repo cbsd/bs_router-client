@@ -5,7 +5,7 @@ _MYDIR=$( /usr/bin/dirname `/bin/realpath $0` )
 ${_MYDIR}/../bs_router-client -config ${_MYDIR}/../config-pool1.json -body '{"Command":"bcreate","CommandArgs":{
 "jname": "cent1",
 "vm_os_type": "linux",
-"vm_os_profile": "cloud-CentOS-8-x86_64",
+"vm_os_profile": "cloud-CentOS-8.0-x86_64",
 "host_hostname": "cent1.my.domain",
 "astart": "1",
 "ci_gw4": "172.16.0.1",
